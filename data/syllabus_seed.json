@@ -1,0 +1,40 @@
+{
+  "exam": "JAMB UTME Physics",
+  "note": "STARTER SET proposed for the project. Check topics, competencies and weights against the official JAMB syllabus and edit freely. exam_weight is a placeholder (1.0) until you set real values.",
+  "topics": [
+    {"name": "Measurements and Units", "exam_weight": 1.0, "competencies": [
+      {"name": "Convert and use SI units", "description": "Fundamental and derived units, prefixes, conversions."},
+      {"name": "Handle errors and significant figures", "description": "Accuracy, precision, estimating uncertainty."}
+    ]},
+    {"name": "Motion", "exam_weight": 1.0, "competencies": [
+      {"name": "Distinguish scalars and vectors", "description": "Distance vs displacement, speed vs velocity."},
+      {"name": "Apply equations of uniform acceleration", "description": "v = u + at, s = ut + 1/2 at^2, v^2 = u^2 + 2as."},
+      {"name": "Interpret motion graphs", "description": "Displacement-time and velocity-time graphs."}
+    ]},
+    {"name": "Newton's Laws and Momentum", "exam_weight": 1.0, "competencies": [
+      {"name": "Apply Newton's laws of motion", "description": "F = ma, action and reaction, inertia."},
+      {"name": "Use conservation of momentum", "description": "Collisions, impulse, recoil."}
+    ]},
+    {"name": "Work, Energy and Power", "exam_weight": 1.0, "competencies": [
+      {"name": "Calculate work, energy and power", "description": "W = Fs, KE, PE, P = W/t."},
+      {"name": "Apply conservation of energy", "description": "Energy transformations, efficiency."}
+    ]},
+    {"name": "Heat and Thermal Physics", "exam_weight": 1.0, "competencies": [
+      {"name": "Use specific and latent heat", "description": "Q = mc(delta T), Q = mL."},
+      {"name": "Apply gas laws", "description": "Boyle's, Charles', pressure law, general gas equation."}
+    ]},
+    {"name": "Waves, Sound and Light", "exam_weight": 1.0, "competencies": [
+      {"name": "Use wave quantities", "description": "v = f x wavelength, types of waves, superposition."},
+      {"name": "Apply reflection and refraction", "description": "Mirrors, lenses, Snell's law, ray diagrams."}
+    ]},
+    {"name": "Current Electricity", "exam_weight": 1.0, "competencies": [
+      {"name": "Apply Ohm's law", "description": "V = IR, resistivity, resistor networks."},
+      {"name": "Analyse series and parallel circuits", "description": "Combined resistance, cells, internal resistance."},
+      {"name": "Calculate electrical energy and power", "description": "P = IV, W = IVt, cost of energy."}
+    ]},
+    {"name": "Electromagnetism and Modern Physics", "exam_weight": 1.0, "competencies": [
+      {"name": "Explain magnetic effects of current", "description": "Fields, force on conductors, electromagnetic induction."},
+      {"name": "Describe atomic and nuclear processes", "description": "Radioactivity, half-life, photoelectric effect."}
+    ]}
+  ]
+}

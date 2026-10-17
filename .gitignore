@@ -1,0 +1,9 @@
+# Secrets: NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# Local database and Python clutter
+*.db
+__pycache__/
+.venv/
+.pytest_cache/

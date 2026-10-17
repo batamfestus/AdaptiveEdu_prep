@@ -1,0 +1,5 @@
+# Optional but recommended: the vector database for the AI tutor's study notes.
+# Install with:  pip install -r requirements-chroma.txt
+# If it fails to install on your computer, skip it: the tutor automatically falls back to
+# simple keyword search (slightly less clever, but it works).
+chromadb>=1.0

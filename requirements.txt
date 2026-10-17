@@ -1,0 +1,23 @@
+# --- App / UI ---
+streamlit>=1.40
+
+# --- Data layer ---
+sqlalchemy>=2.0          # ORM: Python classes <-> database tables
+psycopg2-binary>=2.9     # Postgres driver (used when DATABASE_URL points to Supabase/Neon)
+pydantic>=2.6            # Validates data (uploaded questions, LLM JSON output)
+python-dotenv>=1.0       # Loads a local .env file during development
+
+# --- Charts (Lesson 8; also installed with streamlit) ---
+pandas>=2.0
+
+# --- Images (Lesson 4) ---
+pillow>=10.0             # Decodes, validates and cleans uploaded diagrams
+
+# --- Security (Lesson 2) ---
+bcrypt>=4.1              # Password hashing
+
+# --- AI ---
+anthropic>=0.40          # Claude API client (used from Milestone 2)
+
+# --- Testing ---
+pytest>=8.0
